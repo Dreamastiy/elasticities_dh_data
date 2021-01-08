@@ -1,4 +1,4 @@
-cannibalization_dh_data
+elasticities_dh_data
 ==============================
 
 Sales cannibalization search using dunnhumby open data (https://www.dunnhumby.com/source-files/ , sourcefiles@dunnhumby.com). Task includes several steps - data preparation, (cross)elasticities calculation, price/discount optimization using cannibalization. 
