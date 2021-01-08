@@ -1,4 +1,4 @@
-name: your-workflow-name
+name: Accuracy KPIs measurement
 on: [push]
 jobs:
   run:
@@ -12,7 +12,9 @@ jobs:
         run: |
 
           # Write your CML report
-          echo "##Main KPIs values comparison" > report.md
+          echo "## Main KPIs values comparison" > report.md
           echo "" >> report.md
-          cat .\\reports\\model_comparison.txt >> report.md
+          #cat .\\reports\\model_comparison.txt >> report.md
+          pwd >> report.md
+          ls >> report.md
           cml-send-comment report.md
