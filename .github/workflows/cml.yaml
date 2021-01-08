@@ -17,4 +17,3 @@ jobs:
           #cat .\\reports\\model_comparison.txt >> report.md
           pwd >> report.md
           ls >> report.md
-          cml-send-comment report.md
