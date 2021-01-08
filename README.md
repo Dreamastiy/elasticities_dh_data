@@ -1,7 +1,8 @@
 cannibalization_dh_data
 ==============================
 
-Sales cannibalization search using dunnhumby open data (https://www.dunnhumby.com/source-files/). Task includes several steps - data preparation, cannibalization calculation, price/discount optimization using cannibalization. 
+Sales cannibalization search using dunnhumby open data (https://www.dunnhumby.com/source-files/ , sourcefiles@dunnhumby.com). Task includes several steps - data preparation, cannibalization calculation, price/discount optimization using cannibalization. 
+Now only basic elasticities are implemented.
 
 Project Organization
 ------------
