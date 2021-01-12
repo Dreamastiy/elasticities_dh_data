@@ -1,5 +1,6 @@
 elasticities_dh_data
 ==============================
+![Comparison to Naive](reports/figures/00.model_comparison.png?raw=true "model_vs_naive")
 
 Sales cannibalization search using dunnhumby open data (https://www.dunnhumby.com/source-files/ , sourcefiles@dunnhumby.com). Task includes several steps - data preparation, (cross)elasticities calculation, price/discount optimization using cannibalization. 
 Now only basic elasticities are implemented.
